@@ -1,0 +1,7 @@
+.alphaimg .swatch, .swatch2{ height: 40px; width: 40px; position:absolute; top:10px; right:10px;}
+.sliders {margin: auto; padding: 1em;}
+input { width: 100%; margin: 0px;}
+.hue {background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red); padding: 10px; margin-top: 5px; margin-bottom: 5px;}
+.alpha, .alpha2{background-image: linear-gradient(to right, white, hsla(66, 31%, 94%, 0.18)); padding: 10px; margin-top: 5px; margin-bottom: 5px;}
+.slider {padding: 10px; margin-top: 5px; margin-bottom: 5px;}
+.b100p {width: 100px;}

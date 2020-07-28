@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>LED Sterownik</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+</head>
+<body> 
+    <div class="container mt-1"> 
+        <nav class="w-100">
+            <span class="h3">Sterownik LED</span>
+            <button class='btn btn-primary float-right' value='1000'>OFF</button>
+        </nav>
+
+        <div class="row">   
+            <div class="col-md-12 col-lg-6">
+                <div id="color-picker-container"></div>
+                <input type="hidden" name="r">
+                <input type="hidden" name="g">
+                <input type="hidden" name="b">
+                <button class="btn btn-outline-secondary b100p" value='1004'>Ustaw</button> 
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <button class="btn btn-outline-secondary b100p" value='1005'>Tęcza1</button>
+                <button class="btn btn-outline-secondary b100p" value='1006'>Tęcza2</button>
+                <button class="btn btn-outline-secondary b100p" value='1007'>Tęcza3</button> 
+            </div>
+        </div>
+
+        <div class='mb-3'>
+            <h5>Prędkość</h5>
+            <div class='slider'>
+                <input type='range' name='s_val' min='1' max='30' value='10'>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/iro.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
+  
